@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 114.096 s <<< FAILURE! - in TestSuite
+verifyOTPInvalid(com.midTrans.tests.TC1)  Time elapsed: 11.171 s  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: 
+no such frame
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-IT3088', ip: 'fe80:0:0:0:1818:2268:6d06:b62c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UiAutomator2, browserName: Chrome, chromedriver_autodownload: true, databaseEnabled: false, desired: {automationName: UiAutomator2, browserName: Chrome, chromedriver_autodownload: true, deviceName: emulator-5554, platformName: android, showChromedriverLog: true, skipUnlock: false}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: android, platformVersion: 11, showChromedriverLog: true, skipUnlock: false, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bcad1d11-aef1-4ca0-8384-c0590a03aafe
+	at com.midTrans.tests.TC1.verifyOTPInvalid(TC1.java:187)
+
+verifyOTPvalid(com.midTrans.tests.TC1)  Time elapsed: 12.446 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //div[@class='text-button-main']//span[text()='Use Another Payment Options']
+	at com.midTrans.tests.TC1.verifyOTPvalid(TC1.java:219)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2dcd451f (tried for 1 second(s) with 500 milliseconds interval)
+	at com.midTrans.tests.TC1.verifyOTPvalid(TC1.java:219)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='text-button-main']//span[text()='Use Another Payment Options']"}
+  (Session info: chrome=83.0.4103.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-IT3088', ip: 'fe80:0:0:0:1818:2268:6d06:b62c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UiAutomator2, browserName: Chrome, chromedriver_autodownload: true, databaseEnabled: false, desired: {automationName: UiAutomator2, browserName: Chrome, chromedriver_autodownload: true, deviceName: emulator-5554, platformName: android, showChromedriverLog: true, skipUnlock: false}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: android, platformVersion: 11, showChromedriverLog: true, skipUnlock: false, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bcad1d11-aef1-4ca0-8384-c0590a03aafe
+*** Element info: {Using=xpath, value=//div[@class='text-button-main']//span[text()='Use Another Payment Options']}
+	at com.midTrans.tests.TC1.verifyOTPvalid(TC1.java:219)
+
+verifySuccessMessage(com.midTrans.tests.TC1)  Time elapsed: 11.205 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.midTrans.tests.TC1.verifySuccessMessage(TC1.java:246)
+

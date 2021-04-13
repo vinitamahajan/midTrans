@@ -1,0 +1,35 @@
+{
+  "shoppinCart": {
+    "NAME": "Budi",
+    "EMAIL": "budi@utomo.com",
+    "PHONE_NUMBER": "081808466410",
+    "PHONE_NO":"+6281808466410",
+    "CITY": "Jakarta",
+    "ADDRESS": "MidPlaza 2, 4th Floor Jl.Jend.Sudiram Kav.10-11",
+    "POSTAL_CODE": "10220"
+  },
+
+  "creditCardSuccess": {
+    "CREDIT_CARD": "4811111111111114",
+    "EXPIRY_DATE": "12/24",
+    "CVV": "123",
+    "BANK_OTP": "112233"
+  },
+
+  "creditCardFailure": {
+    "INVALID_CARD_NO": "4811111111111113",
+    "CREDIT_CARD": "4911111111111113",
+    "EXPIRY_DATE": "02/20",
+    "CVV": "123",
+    "BANK_OTP": "112234",
+    "INVALID_CARD": "Invalid card number",
+    "INVALID_EXPIRY": "#FF6167"
+  },
+
+  "labels": {
+    "SUCCESS_LABEL1": "Thank you for your purchase.",
+    "SUCESS_LABEL2": "Get a nice sleep.",
+    "FAILURE_LABEL1": "Transaction failed",
+    "FAILURE_LABEL2": "Your card got declined by the bank"
+  }
+}

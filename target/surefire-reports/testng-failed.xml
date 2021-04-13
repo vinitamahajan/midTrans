@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="platformVersion" value="11.0"/>
+  <parameter name="deviceName" value="emulator-5554"/>
+  <parameter name="platform" value="android"/>
+  <listeners>
+    <listener class-name="com.midTrans.Utilities.AnnotationTransform"/>
+    <listener class-name="com.midTrans.Utilities.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="midTranse-UI Test(failed)" verbose="0">
+    <classes>
+      <class name="com.midTrans.tests.TC1">
+        <methods>
+          <include name="verifyOTPInvalid"/>
+          <include name="verifySuccessMessage"/>
+          <include name="setDriver"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="verifyOTPvalid"/>
+          <include name="initEnvProperties"/>
+          <include name="captureScreenshot"/>
+        </methods>
+      </class> <!-- com.midTrans.tests.TC1 -->
+    </classes>
+  </test> <!-- midTranse-UI Test(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="midTrans">
+
+    <parameter name="platform" value="${platform}" /><!-- Should be ANDROID or MAC -->
+    <parameter name="platformVersion" value="${platformVersion}" />
+    <parameter name="deviceName" value="${deviceName}" />
+
+    <test name="TestCases - MidTrans">
+        <classes>
+            <class name="com.midTrans.tests.TC1"/>
+            <class name="com.midTrans.tests.TC2" />
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,18 @@
+# Created at 2021-04-13T22:39:55.727
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2021-04-13T22:39:55.731
+WARNING: Illegal reflective access by net.sf.cglib.core.ReflectUtils$1 (file:/Users/vinita.mahajan/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created at 2021-04-13T22:39:55.731
+WARNING: Please consider reporting this to the maintainers of net.sf.cglib.core.ReflectUtils$1
+
+# Created at 2021-04-13T22:39:55.732
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2021-04-13T22:39:55.732
+WARNING: All illegal access operations will be denied in a future release
+
+# Created at 2021-04-13T22:41:19.982
+[AppClassLoader@3d4eac69] warning javax.* types are not being woven because the weaver option '-Xset:weaveJavaxPackages=true' has not been specified
+

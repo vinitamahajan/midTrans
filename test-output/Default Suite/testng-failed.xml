@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="platform" value="android"/>
+  <test thread-count="5" name="midTrans(failed)">
+    <classes>
+      <class name="com.midTrans.tests.TC1">
+        <methods>
+          <include name="verifyOTPInvalid"/>
+          <include name="verifySuccessMessage"/>
+          <include name="setDriver"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="verifyOTPvalid"/>
+          <include name="initEnvProperties"/>
+          <include name="captureScreenshot"/>
+        </methods>
+      </class> <!-- com.midTrans.tests.TC1 -->
+    </classes>
+  </test> <!-- midTrans(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

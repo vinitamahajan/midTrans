@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <parameter>
+        <key>Device.Name</key>
+        <value>emulator-5554</value>
+    </parameter>
+    <parameter>
+        <key>Platform</key>
+        <value>Android</value>
+    </parameter>
+    <parameter>
+        <key>Platform.Version</key>
+        <value>11.0</value>
+    </parameter>
+    <parameter>
+        <key>URL</key>
+        <value>http://0.0.0.0:4273</value>
+    </parameter>
+</environment>
